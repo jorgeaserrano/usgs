@@ -1,234 +1,44 @@
-<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Landed by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload landing">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
 
-			<!-- Header -->
-				<header id="header">
-					<!-- <h1 id="logo"><a href="index.html">Home</a></h1> -->
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Visuals</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Graphs</a></li>
-							</li>
-							<li><a href="elements.html">Team</a></li>
-							<!-- <li><a href="#" class="button primary">Sign Up</a></li> -->
-							</ul>
-					</nav>
-				</header>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>USGS Earthquakes Data Visualization</title>
+  
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>Dallas Police Officers - Involved Shootings</h2>
-							<p>Integer mi sed nascetur cep aliquet
-								<br />
-								augue varius tempus lobortis porttitor accumsan consequat
-								adipiscing lorem dolor.</p>
-							</header>
-							<span class="image"><img src="badge-dpd.png" alt="" /></span>
-						</div>
-						<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
 
-			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="1914.jpg" alt="" /></span>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<header>
-										<h2>History</h2>
-										<p>Since its creation more than 120 years ago, the Dallas Police Department has created an atmosphere of ethical, caring behavior. 
-											The 3,640 sworn officers and 556 civilians, who make up the department, take special pride in helping to make Dallas a safe place to live, work and visit.
-											As you explore this site, it is the department's hope that you will become increasingly aware of the services and information available through the Dallas 
-											Police Department. Please use the available links to find out more about the department's organization, community partnerships, 
-											citizen programs, recruiting efforts and crime prevention information.
-											The men and women of the Dallas Police Department will work with the citizens of Dallas to provide the highest level of quality, professional service that 
-											the City of Dallas deserves.</p>
-									</header>
-								<!-- </div>
-								<div class="col-4 col-12-medium">
-									<p>Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-									Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-									nisi praesent dolor adipiscing. Integer mi sed nascetur cep aliquet
-									augue varius tempus lobortis porttitor accumsan consequat
-									adipiscing lorem dolor.</p>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
-									adipiscing adipiscing metus massa. Blandit orci porttitor semper.
-									Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
-									mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-									ipsum dolor nullam.</p>
-								</div> -->
-							</div>
-						</div>
-					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
+    <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 
-			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="recruit.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Mission Statement</h2>
-							<p>The Police Department, in serving the people of Dallas, strives to reduce crime and provide a safe city by:</p>
-						</header>
-						<p>Recognizing that its goal is to help people and provide assistance at every opportunity;</p>
-						<p>Providing preventive, investigative, and enforcement services;</p>
-						<p>Increasing citizen satisfaction with public safety and obtaining community cooperation through the Department's training, skills, and efforts; and</p>
-						<p>Realizing that the Police Department alone cannot control crime, but must act in concert with the community and the rest of the Criminal Justice System.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
 
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="division.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Patrol Divisions</h2>
-							<p>The Dallas Police Department is dedicated to providing the highest quality law enforcement possible. This site is another in the Department's long list of interactive endeavors with the citizens of Dallas.</p>
-							<p>On this site, you will find helpful information about each organization's activities, projects, staff, area maps, school programs, frequently asked questions, forms and much more.
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+ 
+  <!-- JQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
 
-								Not sure which patrol division serves your area? It's easy to find out! Just click on the MAP tab at the top of this page and enter your address.</p>
-						</header>
-						<!-- <p>You will find helpful information about each organization's activities, projects, staff, area maps, school programs, frequently asked questions, forms and much more. Not sure which patrol division serves your area? It's easy to find out! Just click on the MAP tab at the top of this page and enter your address.</p> -->
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
+  <!-- Leaflet heatmap plugin-->
+  <script type="text/javascript" src="static/js/leaflet-heat.js"></script>
+</head>
 
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>The Police Department is dedicated to serving the people of Dallas
-								and strives to reduce crime and provide a safe city. </h2>
-							<p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
-						</header>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-chart-area"></span>
-									<h3>File a Police Report Online</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-comment"></span>
-									<h3>2020 Violent Crime Reduction Plan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-flask"></span>
-									<h3>Officer Involved Shooting (OIS) Data</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-paper-plane"></span>
-									<h3>File a Complaint</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-file"></span>
-									<h3>Open Records Request</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-lock"></span>
-									<h3>Police Reports</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
-								</section>
-							</div>
-						</div>
-						<footer class="major">
-							<ul class="actions special">
-								<li><a href="#" class="button">More Options</a></li>
-							</ul>
-						</footer>
-					</div>
-				</section>
+<body>
+  <!-- The div that holds our map -->
+  <div id="mapid"></div>
+  
+  <!-- JavaScript file -->
+  <script type="text/javascript" src="config.js"></script>>
+  <script type="text/javascript" src="logic.js"></script>
 
-			<!-- Five -->
-				<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>Stay Connected!</h2>
-							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
-						</header>
-						<form method="post" action="#" class="cta">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Your Email Address" /></div>
-								<div class="col-4 col-12-xsmall"><input type="submit" value="Get Started" class="fit primary" /></div>
-							</div>
-						</form>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<!-- <ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul> -->
-				</footer>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
